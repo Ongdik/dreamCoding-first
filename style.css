@@ -1,0 +1,103 @@
+body {
+    margin: 0;
+}
+
+.navBar {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    padding: 12px 20px;
+}
+
+.navBarLogo {
+    color: white;
+}
+.navBarLogo i {
+    color:red;
+}
+.navBarIcon {
+    color: white;
+}
+
+video {
+    width: 100%;
+    object-fit: cover;
+}
+
+section {
+    padding:7px;
+}
+
+a {
+    text-decoration: none;
+    color:blue;
+}
+
+button {
+    border: none;
+    background-color: transparent;
+    color:gray
+}
+
+button:hover {
+    color: black;
+}
+
+.smallContent {
+    font-size: 12px;
+    color:gray;
+}
+
+.buttonIcon {
+    display: flex;
+    justify-content: space-around;
+}
+
+.buttonIcon button {
+    font-size:25px;
+}
+
+.buttonIcon button:hover {
+    color:blue;
+}
+
+.subSection {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:12px 20px;
+}
+
+.subSection i {
+    font-size: 24px;
+    margin-right: 15px;
+}
+
+.subSection button {
+    margin-left: auto;
+}
+
+.subSection button:hover {
+    color:red;
+}
+
+.nextList {
+    display: flex;
+    flex-direction: column;
+}
+
+.nextList div {
+    display: flex;
+    flex-direction: column;
+}
+
+img {
+    width:150px;
+    height:100px;
+    object-fit: cover;
+    padding: 20px 0px;
+}
+
+@media screen and (min-width:768px) {
+    
+}
